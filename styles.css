@@ -234,4 +234,36 @@ p {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     
+
+    /* Style pour le bouton en dessous des cases de texte */
+.btn-exp {
+    display: block; /* Pour que le bouton occupe toute la largeur disponible */
+    width: 200px; /* Taille de base du bouton */
+    padding: 15px 20px;
+    background-color: #4a90e2; /* Couleur de fond */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Coins arrondis */
+    text-decoration: none;
+    text-align: center; /* Centrer le texte du bouton */
+    font-size: 1.2rem; /* Taille de police ajustée */
+    font-weight: bold;
+    margin: 20px auto; /* Centrer le bouton et ajouter un espacement avec le contenu au-dessus */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet au survol */
+.btn-exp:hover {
+    background-color: #5a4946;
+}
+
+/* Responsiveness pour les petits écrans */
+@media (max-width: 768px) {
+    .btn-exp {
+        width: 150px; /* Réduire la largeur du bouton sur les petits écrans */
+        font-size: 1rem; /* Réduire la taille de la police sur les petits écrans */
+    }
+}
+
 }
